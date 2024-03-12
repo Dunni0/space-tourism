@@ -695,7 +695,7 @@ span{
 @media only screen and (max-width: 650px) {
  body{ 
   width: 350px;
-  max-width: 100%;
+  /* max-width: 100%; */
   overflow-x: hidden;
  }
 
@@ -708,7 +708,7 @@ span{
     header .main_nav{
       position: fixed;
       top: 0;
-      left: calc(100% - 200px);
+      left: 10rem;
       /* height: 100vh; */
       height: 100vh;
       z-index: 1;
@@ -731,6 +731,7 @@ span{
 
     .homeCon{
       max-width: 300px;
+      margin: 0 auto;
       border: 2px solid red;
     }
 
