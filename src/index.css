@@ -731,8 +731,13 @@ span{
     /* border: 2px solid red; */
     width: 330px;
     margin-left: 1rem;
+    padding: 0;
     /* align-content: center; */
     /* justify-content: center; */
+  }
+
+  header > div .logo{
+    width: 1.5rem;
   }
   
   header .nav_btn{
@@ -779,8 +784,8 @@ span{
 
   .destination_wrapper{
     width: 300px;
-    margin: 4rem auto;
-    border: 2px solid red;
+    margin: 2rem auto;
+    /* border: 2px solid red; */
     
   }
 
@@ -791,8 +796,8 @@ span{
     top: 20.5rem;
     left: 4.5rem;
     right: 0; */
-    margin: -4rem auto;
-    margin-left: 2.4rem;
+    margin: -3rem auto;
+    margin-left: 2rem;
     align-items: center;
     justify-content: center;
   }
@@ -822,7 +827,7 @@ span{
 
   .planet_wrapper{
     width: 300px;
-    margin: 1rem auto;
+    margin: 2rem auto;
     /* border: 2px solid red; */
   }
 
@@ -835,7 +840,7 @@ span{
     /* border: 2px solid red; */
     width: 300px;
     margin: 0 auto;
-    margin-top: -1.5rem;
+    /* margin-top: 2rem; */
   }
 
 

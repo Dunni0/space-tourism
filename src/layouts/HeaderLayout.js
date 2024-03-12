@@ -19,7 +19,7 @@ export default function HeaderLayout() {
 
       <header>
         <div>
-          <img src="./assets/shared/logo.svg" alt="logo" />
+          <img className="logo" src="./assets/shared/logo.svg" alt="logo" />
         </div>
 
         <nav ref={navRef} className="main_nav">
