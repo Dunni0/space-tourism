@@ -12,20 +12,21 @@
 body{
   background-image: url("/public/assets/home/background-home-desktop.jpg");
   background-repeat: no-repeat;
-  height: 80vh;
-  /* width: 100%; */
+  /* height: 80vh;   */
+  width: 100%;
   overflow: hidden;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
 }
 
-/* .container{
-  border: 2px solid red;
- display: flex;
+.container{
+  /* border: 2px solid red; */
+  margin: 0 auto;
+ /* display: flex;
  flex-direction: column;
  align-items: center;
- justify-content: center;
-} */
+ justify-content: center; */
+} 
 
 /*--------------------header--------------------- */
 
@@ -548,6 +549,9 @@ span{
       margin-left: 0;
       position: absolute;
       top: 35rem;
+      left: 0;
+      right: 0;
+      bottom: 0;
     }
 
 .tech_info > .btn > button{
@@ -620,7 +624,9 @@ span{
     .destinations{
       position: absolute;
       top: 28rem;
-      /* right: 10%; */
+      left: 4.5rem;
+      right: 0;
+      bottom: 0;
       align-items: center;
       justify-content: center;
     }
@@ -674,6 +680,7 @@ span{
      bottom: 50rem !important;
      top: 23rem;
      left: 24rem;
+     right: 0;
      /* margin: 0  auto; */
      /* display: flex; */
      align-items: center;
@@ -702,6 +709,167 @@ span{
 }
 
 
+@media screen and (max-width: 700px) {
+  body{ 
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .container{
+    width: 350px;
+   }
+     
+   .homeCon{
+    max-width: 300px;
+    /* margin: 0 auto; */
+    /* border: 2px solid red; */
+  }
+
+  
+  header .nav_btn{
+    display: block;
+    opacity: 1;
+  }
+
+   header .main_nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: calc(100% - 200px);
+    height: 100vh;
+    z-index: 1;
+    padding-right: 3rem;
+    padding-left: 1rem;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #312f2f;
+    transition: 1s;
+    transform: translateY(-100vh);
+  } 
+
+  header .resNav{
+    transform: none;
+  }
+
+  .space{
+    font-size: 40px;
+  } 
+
+   .intro_txt{
+    /* border: 2px solid red; */
+    width: 280px;
+  }
+
+  .destination_wrapper{
+    width: 300px;
+    margin: 0.7rem auto;
+  }
+
+ 
+  .destinations{
+    width: 300px;
+    position: absolute;
+    top: 20.5rem;
+    left: 4.5rem;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+  }
+   
+   
+   .destinations>a{
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+
+  .planet{
+    width: 200px;
+  }
+
+  .planet_txt{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .planet_info > p {
+    width: 300px;
+
+    margin: 0 auto;
+  }
+
+  .planet_wrapper{
+    width: 300px;
+    margin: 1rem auto;
+    /* border: 2px solid red; */
+  }
+
+  .nums{
+    /* border: 2px solid red; */
+    width: 300px;
+    margin: 0 auto;
+    margin-top: -1.5rem;
+  }
+
+   /* .destinations{
+    width: 300px;
+    position: absolute;
+    top: 27rem;
+    left: 6rem;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+   
+
+  .planet{
+    width: 290px;
+  }
+
+  .planet_txt{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .planet_info > p {
+    width: 300px;
+
+    margin: 0 auto;
+  }
+
+  .planet_wrapper{
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid red;
+  }
+
+  .nums{
+    border: 2px solid red;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: -1.5rem;
+  }
+
+  .techInfoInner .landscape{
+    display: block;
+    border: 2px solid red;
+    width:100%;
+    width: 350px;
+    height: 300px;
+  }  */
+}
+
+/* 
 @media only screen and (max-width: 700px) {
  body{ 
   width: 350px;
@@ -723,8 +891,8 @@ span{
       position: fixed;
       top: 0;
       right: 0;
-      left: 10rem;
-      /* height: 100vh; */
+      left: calc(100% - 200px);
+      height: 100vh;
       height: 100vh;
       z-index: 1;
       padding-right: 3rem;
@@ -746,7 +914,7 @@ span{
 
     .homeCon{
       max-width: 300px;
-      /* margin: 0 auto; */
+      margin: 0 auto;
       border: 2px solid red;
     }
 
@@ -770,12 +938,12 @@ span{
 
      .crew_img{
       max-width: 300px;
-      /* border: 2px solid red; */
+      border: 2px solid red;
     }
 
     #crew_img{
-      /* width: 290px; */
-      /* margin-bottom: -12rem; */
+      width: 290px;
+      margin-bottom: -12rem;
       margin-top: 1rem;
       height: 352px;
     }
@@ -783,21 +951,21 @@ span{
     #crew__img{
       max-width: 348px;
       margin-top: 0.2rem;
-      /* border: 2px solid red; */
+      border: 2px solid red;
     }
 
    #crew___img{
      max-width: 293px;
    }
 
-   /* .destinations{
+   .destinations{
     width: 300px;
     margin-left: 2rem;
     justify-content: center;
     align-items: center;
     border: 2px solid red;
     padding-right: 0;
-   } */
+   }
 
    .destinations{
     width: 300px;
@@ -805,8 +973,8 @@ span{
     top: 27rem;
     left: 6rem;
     right: 0;
-    /* align-items: center;
-    justify-content: center; */
+    align-items: center;
+    justify-content: center;
   }
 
    .destinations>a{
@@ -832,12 +1000,12 @@ span{
 
   .planet_wrapper{
     width: 300px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     border: 2px solid red;
   }
 
   .nums{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     width: 300px;
     margin: 0 auto;
     margin-top: -1.5rem;
@@ -845,10 +1013,10 @@ span{
 
   .techInfoInner .landscape{
     display: block;
-    /* border: 2px solid red;s */
-    /* width:100%; */
+    border: 2px solid red;
+    width:100%;
     width: 350px;
-    /* height: 300px; */
-  }
+    height: 300px;
+  } */
  
-}
+/* } */
