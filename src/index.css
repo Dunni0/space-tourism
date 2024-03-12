@@ -779,8 +779,8 @@ span{
 
   .destination_wrapper{
     width: 300px;
-    margin: 0.7rem 2 auto;
-    /* border: 2px solid red; */
+    margin: 4rem auto;
+    border: 2px solid red;
     
   }
 
@@ -791,8 +791,8 @@ span{
     top: 20.5rem;
     left: 4.5rem;
     right: 0; */
-    margin: -6rem auto;
-    margin-left: 1rem;
+    margin: -4rem auto;
+    margin-left: 2.4rem;
     align-items: center;
     justify-content: center;
   }
