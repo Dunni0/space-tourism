@@ -732,9 +732,6 @@ span{
     .homeCon{
       max-width: 300px;
       border: 2px solid red;
-      /* margin: 10rem auto; */
-      align-items: center;
-      justify-content: center;
     }
 
     .space{
