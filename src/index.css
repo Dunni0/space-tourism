@@ -730,8 +730,8 @@ span{
     }
 
     .homeCon{
-      max-width: 350px;
-      /* border: 2px solid red; */
+      max-width: 300px;
+      border: 2px solid red;
       /* margin: 10rem auto; */
       align-items: center;
       justify-content: center;
@@ -789,11 +789,11 @@ span{
    .destinations{
     width: 300px;
     position: absolute;
-    top: 30rem;
-    left: 4rem;
+    top: 27rem;
+    left: 6rem;
     right: 0;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
   }
 
    .destinations>a{
@@ -801,7 +801,7 @@ span{
   }
 
   .planet{
-    width: 300px;
+    width: 290px;
   }
 
   .planet_txt{
@@ -815,6 +815,12 @@ span{
     width: 300px;
 
     margin: 0 auto;
+  }
+
+  .planet_wrapper{
+    width: 300px;
+    /* margin: 0 auto; */
+    border: 2px solid red;
   }
 
   .nums{
