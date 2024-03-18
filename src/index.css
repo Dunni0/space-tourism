@@ -830,6 +830,7 @@ span {
     right: 0;
     width: 100% !important ;
     height: 50px;
+    border: 2px solid red;
   }
 
   .crew_img {
@@ -841,11 +842,13 @@ span {
   }
 
   #crew__img {
-    margin-top: 4.3rem;
+    margin-top: 5rem;
+    border: 2px solid red;
   }
 
   #crew___img {
-    margin-top: 4rem;
+    border: 2px solid red;
+    margin-top: 5rem;
   }
 
   
