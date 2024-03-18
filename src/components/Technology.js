@@ -26,7 +26,7 @@ export default function Technology() {
   return (
     <div className="techWrapper">
       <div className="tech_text">
-        <span> 02 </span> <p> MEET YOUR CREW </p>
+        <span> 03 </span> <p> MEET YOUR CREW </p>
       </div>
 
       <div className="tech_info">

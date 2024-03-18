@@ -501,8 +501,7 @@ span {
   }
 
   .tech_text {
-    padding-left: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .tech_info {
@@ -680,7 +679,7 @@ span {
 
 @media screen and (max-width: 700px) {
   body {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -865,7 +864,7 @@ span {
     width: 250px;
     height: 50px;
     margin-left: 0;
-    top: 20rem;
+    top: 22rem;
     left: 4.5rem;
   }
 
