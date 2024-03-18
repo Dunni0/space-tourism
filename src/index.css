@@ -460,7 +460,7 @@ span {
     /* overflow-x: hidden;
     overflow-y: visible; */
     position: relative;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 
   .main_nav {
