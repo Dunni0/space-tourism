@@ -54,7 +54,6 @@ export default function Technology() {
             </p>
           </div>
 
-
           <img  
             className="portrait"       
             src={images.portrait}
