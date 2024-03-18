@@ -876,9 +876,10 @@ span {
 
   .techInfoInner > .tech_txt {
     margin-bottom: 1rem;
+    margin-top: 3rem;
+    /* border: 2px solid red; */
     align-items: center;
     margin-bottom: 10rem;
-    /* margin-top: 5rem; */
   }
 
   
