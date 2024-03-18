@@ -869,6 +869,10 @@ span {
     left: 4.5rem;
   }
 
+  .btn > button{
+    color: #312f2f !important;
+  }
+
   .tech_info > .btn > button {
     height: 40px;
     width: 40px;
