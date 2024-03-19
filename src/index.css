@@ -15,7 +15,6 @@ body {
   background-size: cover;
   width: 100%;
   overflow: hidden;
-  /* border: 2px solid red; */
 }
 
 .container {
@@ -118,7 +117,6 @@ header .nav_btn {
 }
 
 .homeCon {
-  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   width: 800px;
@@ -132,14 +130,12 @@ header .nav_btn {
   gap: 1rem;
   color: #fff;
   width: 380px;
-  /* border: 2px solid red; */
 }
 
 .space {
   font-size: 80px;
   font-weight: 500;
   letter-spacing: 0.7rem;
-  /* font-family: 'Barlow Condensed', sans-serif; */
   font-family: "Bellefair", serif;
 }
 
@@ -161,16 +157,11 @@ span {
 
 .destinations {
   height: 4rem;
-  /* max-width: 300px; */
   width: 100%;
   display: flex;
-  /* justify-content: space-around; */
   justify-content: flex-end;
-  /* align-items: center; */
   font-family: "Barlow Condensed", sans-serif;
-
   padding-right: 5.5rem;
-  /* padding-left: 3rem;  */
 }
 
 .destinations > a {
@@ -179,7 +170,6 @@ span {
 
 .destination_wrapper,
 .crew_wrapper {
-  /* border: 2px solid red; */
   margin: 2rem 3rem auto;
 }
 
@@ -187,7 +177,6 @@ span {
 .crew_text,
 .tech_text {
   font-family: "Barlow Condensed", sans-serif;
-  /* font-weight: 550; */
   font-size: 1.5rem;
   display: flex;
   gap: 0.8rem;
@@ -211,12 +200,9 @@ span {
 /*-------------------- PLANET --------------------- */
 
 .planet_wrapper {
-  /* border: 2px solid red; */
-
   transition: all 300ms ease;
   display: flex;
   justify-content: space-around;
-  /* padding-bottom: 2rem; */
 }
 
 .planet {
@@ -236,7 +222,6 @@ span {
   font-family: "Barlow Condensed", sans-serif;
   width: 450px;
   padding: 2.9rem;
-  /* align-items: center; */
 }
 
 .planet_txt {
@@ -279,18 +264,13 @@ span {
   transition: all 300ms ease;
   display: flex;
   justify-content: space-around;
-  /* padding-bottom: 2rem; */
-  /* border: 2px solid red; */
 }
 
 .crew_txt {
   margin-top: 3rem;
-  /* border: 2px solid red; */
 }
 
 .crew_txt > span {
-  /* border: 2px solid red; */
-
   font-size: 2rem;
   color: gray;
 }
@@ -304,7 +284,6 @@ span {
 .crew_txt > h1,
 .crew_txt > p {
   margin-bottom: 2rem;
-
   color: #fff;
 }
 
@@ -317,14 +296,9 @@ span {
 
 .crew_img {
   max-width: 480px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-  /* border: 2px solid red; */
 }
 
 #crew_img {
-  /* width: 490px; */
   height: 690px;
 }
 
@@ -338,7 +312,6 @@ span {
   padding: 0;
   margin: 0;
   list-style: none;
-  /* border: 2px solid red ; */
 }
 
 .slick-dots li {
@@ -375,12 +348,8 @@ span {
 
 .tech_info {
   font-family: "Barlow Condensed", sans-serif;
-  /* width: 450px; */
-  /* color: #fff; */
-  /* padding: 2.9rem; */
   align-items: center;
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
   transition: all 2s ease-in-out;
 }
@@ -390,7 +359,6 @@ span {
 }
 
 .tech_info > .btn > button {
-  /* border: solid red; */
   list-style: none;
   margin: 1rem;
   height: 50px;
@@ -434,12 +402,9 @@ span {
 }
 
 .techInfoInner {
-  /* border: 2px solid red; */
-  /* width: 600px; */
   display: flex;
   gap: 10rem;
   align-items: center;
-  /* margin-left: 7rem; */
 }
 
 .techInfoInner > .tech_txt {
@@ -452,10 +417,9 @@ span {
 
 @media only screen and (max-width: 1024px) {
   body {
-    /* overflow-x: hidden;
-    overflow-y: visible; */
+    overflow-x: hidden;
+    overflow-y: visible;
     position: relative;
-    /* border: 2px solid red; */
   }
 
   .main_nav {
@@ -464,7 +428,6 @@ span {
   }
 
   .homeCon {
-    /* border: 2px solid red; */
     flex-direction: column;
     gap: 5rem;
     align-items: center;
@@ -495,28 +458,28 @@ span {
     padding: 0;
   }
 
-  .tech_text {
+  .tech_text {   
     margin-bottom: 2rem;
+    padding-left : 2rem;
   }
 
   .tech_info {
     font-family: "Barlow Condensed", sans-serif;
-    /* width: 450px; */
-    /* color: #fff; */
-    /* padding: 2.9rem; */
     align-items: center;
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     transition: all 2s ease-in-out;
   }
 
   .btn {
-    /* border: 2px solid red; */
-    display: flex;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
     margin-left: 0;
-    position: absolute;
-    top: 35rem;
+    position: relative;
+    top: 23rem;
     left: 0;
     right: 0;
     bottom: 0;
@@ -542,18 +505,12 @@ span {
 
   .techInfoInner .landscape {
     display: block;
-    /* border: 2px solid red;s */
-    /* width:100%; */
-    width: 800px;
-    /* height: 300px; */
+    width: 750px;
   }
 
   .techInfoInner > .tech_txt {
     margin-bottom: 1rem;
     align-items: center;
-    /* display: flex;
-      flex-direction: column;
-      gap: 1rem; */
   }
 
   .txt {
@@ -564,6 +521,7 @@ span {
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
+    margin-bottom: 5rem;
     padding-bottom: 2rem;
   }
 
@@ -572,9 +530,7 @@ span {
   }
 
   .planet_info {
-    /* max-width: 750px; */
     padding: 0;
-    /* border: 2px solid red; */
     text-align: center;
     margin-top: 4rem;
   }
@@ -585,11 +541,10 @@ span {
   }
 
   .destinations {
-    /* border: 2px solid red; */
     max-width: 500px;
-    position: absolute;
-    top: 29rem;
-    left: 10rem;
+    position: relative;
+    top: 25rem;
+    left: 9rem;
     right: 0;
     bottom: 0;
     align-items: center;
@@ -618,20 +573,15 @@ span {
   }
 
   .crew_txt > p {
-    /* margin-bottom: 1rem; */
-    /* border: 2px solid red; */
     text-align: center;
   }
 
   .crew_img {
     display: flex;
-    /* border: 2px solid red; */
     max-width: 287px;
   }
 
   #crew_img {
-    /* width: 290px; */
-    /* margin-bottom: -12rem; */
     margin-top: 1rem;
     height: 351px;
   }
@@ -643,11 +593,9 @@ span {
   .slick-dots {
     position: relative;
     bottom: 50rem !important;
-    top: 23rem;
-    left: 20rem;
-    right: 0;
-    /* margin: 0  auto; */
-    /* display: flex; */
+    top: 20rem;
+    left: 0;
+    right: 10rem;
     align-items: center;
     justify-content: center;
   }
@@ -660,21 +608,10 @@ span {
   #crew___img {
     width: 293px;
   }
-
-  /* .slick-dots li {
-      width: 10px !important;
-      height: 10px !important;
-    }
-
-    .slick-dots li.slick-active button{
-      width: 10px;
-      height: 10px;
-    } */
 }
 
 @media screen and (max-width: 700px) {
   body {
-    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -686,17 +623,12 @@ span {
 
   .homeCon {
     max-width: 300px;
-    /* margin: 0 auto; */
-    /* border: 2px solid red; */
   }
 
   header {
-    /* border: 2px solid red; */
     width: 330px;
     margin-left: 1rem;
     padding: 0;
-    /* align-content: center; */
-    /* justify-content: center; */
   }
 
   header > div .logo {
@@ -712,18 +644,19 @@ span {
     position: fixed;
     top: 0;
     right: 0;
-    left: calc(100% - 200px);
+    /* left: calc(100% - 200px); */
     height: 80vh;
     z-index: 1;
-    padding-right: 3rem;
-    padding-left: 1rem;
-    width: 200px;
+    /* padding-right: 3rem; */
+    /* padding-left: 1rem; */
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    background-color: #312f2f;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     transition: 1s;
     transform: translateY(-100vh);
   }
@@ -741,14 +674,12 @@ span {
   }
 
   .intro_txt {
-    /* border: 2px solid red; */
     width: 280px;
   }
 
   .destination_wrapper {
     width: 300px;
     margin: 2rem auto;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -761,10 +692,6 @@ span {
     top: 18rem;
     left: 3.5rem;
     right: 0;
-    /* margin: -4.5rem auto;
-    margin-left: 2rem;
-    align-items: center;
-    justify-content: center; */
   }
 
   .destinations > a {
@@ -792,30 +719,21 @@ span {
   .planet_wrapper {
     width: 300px;
     margin: 2rem auto;
-    /* border: 2px solid red; */
   }
 
   .planet_info {
-    /* border: 2px solid red; */
     width: 300px;
   }
 
   .nums {
-    /* border: 2px solid red; */
     width: 300px;
     margin: 0 auto;
-    /* margin-top: 2rem; */
   }
 
   .crew_wrapper{
     margin: 0;
     margin-bottom: 0rem;
   }
-
-  /* .crew_con{
-    border: 2px solid red;
-  } */
-
 
   .slick-dots {
     bottom: 0 !important;
@@ -842,10 +760,6 @@ span {
     margin-top: 5rem;
   }
 
-  
-
-
-
   .techInfoInner .landscape {
     display: block;
     max-width: 100%;
@@ -859,8 +773,7 @@ span {
     width: 250px;
     height: 50px;
     margin-left: 0;
-    top: 22rem;
-    left: 4.5rem;
+    top: 15rem;
   }
 
   .btn > button{
@@ -875,163 +788,8 @@ span {
   .techInfoInner > .tech_txt {
     margin-bottom: 1rem;
     margin-top: 3rem;
-    /* border: 2px solid red; */
     align-items: center;
     margin-bottom: 10rem;
   }
-
-  
   
 }
-
-/* 
-@media only screen and (max-width: 700px) {
- body{ 
-  width: 350px;
-  max-width: 100%;
-  overflow-x: hidden;
- }
-   
- header{
-  border: 2px solid red;
-  margin: 1rem auto;
- }
- 
-    header .nav_btn{
-      display: block;
-      opacity: 1;
-    }
-
-    header .main_nav{
-      position: fixed;
-      top: 0;
-      right: 0;
-      left: calc(100% - 200px);
-      height: 100vh;
-      height: 100vh;
-      z-index: 1;
-      padding-right: 3rem;
-  padding-left: 1rem;
-      width: 200px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 3rem;
-      background-color: #312f2f;
-      transition: 1s;
-      transform: translateY(-100vh);
-    }
-
-    header .resNav{
-      transform: none;
-    }
-
-    .homeCon{
-      max-width: 300px;
-      margin: 0 auto;
-      border: 2px solid red;
-    }
-
-    .space{
-      font-size: 40px;
-    }
-
-    .intro_txt{
-      border: 2px solid red;
-      width: 280px;
-    }
-
-    .slick-dots{
-      bottom: 50rem !important;
-      top: 22rem;
-      left: 8rem;
-      margin: 0  auto;
-      align-items: center;
-      justify-content: center;
-     }
-
-     .crew_img{
-      max-width: 300px;
-      border: 2px solid red;
-    }
-
-    #crew_img{
-      width: 290px;
-      margin-bottom: -12rem;
-      margin-top: 1rem;
-      height: 352px;
-    }
-
-    #crew__img{
-      max-width: 348px;
-      margin-top: 0.2rem;
-      border: 2px solid red;
-    }
-
-   #crew___img{
-     max-width: 293px;
-   }
-
-   .destinations{
-    width: 300px;
-    margin-left: 2rem;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid red;
-    padding-right: 0;
-   }
-
-   .destinations{
-    width: 300px;
-    position: absolute;
-    top: 27rem;
-    left: 6rem;
-    right: 0;
-    align-items: center;
-    justify-content: center;
-  }
-
-   .destinations>a{
-    padding: 1rem;
-  }
-
-  .planet{
-    width: 290px;
-  }
-
-  .planet_txt{
-    font-size: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .planet_info > p {
-    width: 300px;
-
-    margin: 0 auto;
-  }
-
-  .planet_wrapper{
-    width: 300px;
-    margin: 0 auto;
-    border: 2px solid red;
-  }
-
-  .nums{
-    border: 2px solid red;
-    width: 300px;
-    margin: 0 auto;
-    margin-top: -1.5rem;
-  }
-
-  .techInfoInner .landscape{
-    display: block;
-    border: 2px solid red;
-    width:100%;
-    width: 350px;
-    height: 300px;
-  } */
-
-/* } */
