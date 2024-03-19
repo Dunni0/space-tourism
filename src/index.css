@@ -34,7 +34,7 @@ header {
 
 a {
   color: #fff;
-  text-decoration: none !important;
+  text-decoration: none;
   text-decoration: grey;
   transition: all 400ms ease-in-out;
   font-weight: lighter;
@@ -650,16 +650,16 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    background: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    gap: 4rem;
+    background: rgba(37, 36, 36, 0.1);
     backdrop-filter: blur(10px);
     transition: 1s;
     transform: translateY(-100vh);
   }
 
   .main_nav > a{
-    font-weight: bold;
-    font-size: 1rem;
+    text-decoration: none !important;
   }
 
   header .resNav {
