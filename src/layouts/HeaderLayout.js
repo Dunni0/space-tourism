@@ -24,17 +24,16 @@ export default function HeaderLayout() {
 
         <nav ref={navRef} className="main_nav">
           <NavLink to="/">
-            {" "}
-            <b> 00 </b> Home{" "}
+            <b> 00 </b> Home
           </NavLink>
           <NavLink to="destination">
-            <b> 01 </b> Destination{" "}
+            <b> 01 </b> Destination
           </NavLink>
           <NavLink to="crew">
-            <b> 02 </b> Crew{" "}
+            <b> 02 </b> Crew
           </NavLink>
           <NavLink to="technology">
-            <b> 03 </b> Technology{" "}
+            <b> 03 </b> Technology
           </NavLink>
           <button onClick={showNav} className= "nav_btn">
             <FaTimes/>

@@ -34,11 +34,11 @@ header {
 
 a {
   color: #fff;
-  text-decoration: none;
+  text-decoration: none !important;
   text-decoration: grey;
   transition: all 400ms ease-in-out;
   font-weight: lighter;
-  word-spacing: 0.5rem;
+  word-spacing: 1rem;
   letter-spacing: 2.7px;
 }
 
@@ -80,7 +80,7 @@ header .nav_btn {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   padding-right: 5rem;
-  padding-left: 3rem;
+  padding-left: 3rem; 
 }
 
 /*-------------------- CIRCLE --------------------- */
@@ -645,7 +645,7 @@ span {
     top: 0;
     right: 0;
     /* left: calc(100% - 200px); */
-    height: 80vh;
+    height: 100vh;
     z-index: 1;
     /* padding-right: 3rem; */
     /* padding-left: 1rem; */
@@ -653,13 +653,19 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 3rem;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     transition: 1s;
     transform: translateY(-100vh);
+    /* border: 2px solid re d; */
   }
+
+  /* .main_nav > a{
+    border: 2px solid red;
+    padding: 2rem;
+  } */
 
   header .resNav {
     transform: none;
