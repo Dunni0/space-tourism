@@ -644,28 +644,23 @@ span {
     position: fixed;
     top: 0;
     right: 0;
-    /* left: calc(100% - 200px); */
     height: 100vh;
     z-index: 1;
-    /* padding-right: 3rem; */
-    /* padding-left: 1rem; */
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    gap: 3rem;
+    gap: 1rem;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     transition: 1s;
     transform: translateY(-100vh);
-    /* border: 2px solid re d; */
   }
 
-  /* .main_nav > a{
-    border: 2px solid red;
-    padding: 2rem;
-  } */
+  .main_nav > a{
+    font-weight: bold;
+    font-size: 1rem;
+  }
 
   header .resNav {
     transform: none;
@@ -673,6 +668,11 @@ span {
 
   header .nav_btn {
     font-size: 1.5rem;
+  }
+
+  header .times {
+    font-size: 1.5rem;
+    margin-left: 1rem;
   }
 
   .space {

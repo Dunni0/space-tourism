@@ -35,7 +35,7 @@ export default function HeaderLayout() {
           <NavLink to="technology">
             <b> 03 </b> Technology
           </NavLink>
-          <button onClick={showNav} className= "nav_btn">
+          <button onClick={showNav} className= "nav_btn times">
             <FaTimes/>
           </button>
         </nav>
